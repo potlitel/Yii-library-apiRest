@@ -17,7 +17,7 @@ class m230919_135027_create_book_table extends Migration
             'name' => $this->string(),
             'author' => $this->string(),
             'release_year' => $this->smallInteger(),
-            'is_available_for_loan' => $this->boolean()->defaultValue(true)
+            'is_available_for_loan' => $this->boolean()->defaultValue(1)
         ]);
     }
 
